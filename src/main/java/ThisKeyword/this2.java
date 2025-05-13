@@ -20,7 +20,7 @@ class boys
     }
 }
 
-class this2
+public class this2
 {
     public static void main(String args[])
     {
