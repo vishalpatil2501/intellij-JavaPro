@@ -21,5 +21,7 @@ public class CountTotalNoofCharacter {
         System.out.println(noSpaces);
 
         scanner.close();
+
+
     }
 }

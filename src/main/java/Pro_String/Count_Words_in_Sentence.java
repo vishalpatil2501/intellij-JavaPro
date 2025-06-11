@@ -12,7 +12,7 @@ public class Count_Words_in_Sentence {
             System.out.println("Word count: 0");
         } else {
             // Split sentence by one or more spaces
-            String[] words = sentence.split("\\s+");
+            String[] words = sentence.split(" ");
             System.out.println("Word count: " + words.length);
         }
 

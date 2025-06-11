@@ -1,14 +1,19 @@
 package Encapsulation;
 
 public class Employee {
+    private String name;
+    private int age;
 
-    private String name1;
-
-    public String getName1(){
-        return name1;
+    public String getName(){
+        return name;
     }
-
-    public void setName1(String newname1) {
-        this.name1 = newname1;
+    public int getAge() {
+        return age;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setAge(int age) {
+        this.age = age;
     }
 }

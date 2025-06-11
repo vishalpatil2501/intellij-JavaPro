@@ -15,7 +15,7 @@ public class FactorialNo {
         for ( int i = 1 ; i <= number; i++) {
             facto = facto * i;
         }
-        System.out.println(facto);
+        System.out.println("Factorial of " + number + " is " + facto);
 
     }
 }
