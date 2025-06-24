@@ -16,8 +16,8 @@ public class MinMaxInArray {
                 min = a[i];
             }
         }
-        System.out.println("Maximum Element in Array : " + max);
-        System.out.println("Maximum Element in Array : " + min);
+        System.out.println("Maximum Element in Array.Array : " + max);
+        System.out.println("Maximum Element in Array.Array : " + min);
 
     }
 }

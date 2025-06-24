@@ -48,7 +48,7 @@ public class linkedhashset {
 
         // 10. Convert to array
         String[] cityArray = cities.toArray(new String[0]);
-        System.out.println("\nConverted to Array:");
+        System.out.println("\nConverted to Array.Array:");
         for (String city : cityArray) {
             System.out.println(city);
         }

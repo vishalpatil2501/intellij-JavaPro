@@ -10,7 +10,7 @@ public class Sort_Ele_In_Array_in_Reverse {
         Arrays.sort(num);
         System.out.println("Sorted array (Ascending): " + Arrays.toString(num));
 
-        System.out.print("Array in Reverse order: ");
+        System.out.print("Array.Array in Reverse order: ");
 
         for(int i = num.length-1; i>=0; i--){
             System.out.print(num[i] +" ");

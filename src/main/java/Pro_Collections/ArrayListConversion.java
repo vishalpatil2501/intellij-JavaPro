@@ -10,11 +10,11 @@ public class ArrayListConversion {
         // === 1. Object array (Integer[]) to List ===
         Integer [] objArr = {10,20,30,40};
         List<Integer> objlist = Arrays.asList(objArr);
-        System.out.println("Object Array to List " + objlist);
+        System.out.println("Object Array.Array to List " + objlist);
 
         // === 2. List to Object array ===
         Integer[] newObjArr = objlist.toArray(new Integer[0]);
-        System.out.println("List to Obj Array " + Arrays.toString(newObjArr));
+        System.out.println("List to Obj Array.Array " + Arrays.toString(newObjArr));
 
         // === 3. Primitive array (int[]) to List ===
         int[] primitiveArray = {1, 2, 3, 4};
@@ -22,11 +22,11 @@ public class ArrayListConversion {
         for (int i : primitiveArray) {
             primitiveList.add(i);
         }
-        System.out.println("Primitive Array to List: " + primitiveList);
+        System.out.println("Primitive Array.Array to List: " + primitiveList);
 
         // === 4. List to Primitive array (int[]) ===
         int[] newPrimitiveArray = primitiveList.stream().mapToInt(Integer::intValue).toArray();
-        System.out.println("List to Primitive Array: " + Arrays.toString(newPrimitiveArray));
+        System.out.println("List to Primitive Array.Array: " + Arrays.toString(newPrimitiveArray));
     }
 
 }

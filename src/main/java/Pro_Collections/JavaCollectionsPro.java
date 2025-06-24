@@ -47,13 +47,13 @@ public class JavaCollectionsPro {
         System.out.println("Duplicates: " + dup);
     }
 
-    // 6. Array to list and vice versa
+    // 6. Array.Array to list and vice versa
     public static void arrayListConversion() {
         String[] arr = {"A", "B", "C"};
         List<String> list = Arrays.asList(arr);
         System.out.println("List: " + list);
         String[] array = list.toArray(new String[0]);
-        System.out.println("Array: " + Arrays.toString(array));
+        System.out.println("Array.Array: " + Arrays.toString(array));
     }
 
     // 7. Iterate over a Map

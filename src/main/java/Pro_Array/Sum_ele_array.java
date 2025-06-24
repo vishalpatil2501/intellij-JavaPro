@@ -13,6 +13,6 @@ public class Sum_ele_array {
 //         for (int sum1 : num){
 //             sum = sum + sum1;
 //         }
-        System.out.println( "SUm of Array : " + sum);
+        System.out.println( "SUm of Array.Array : " + sum);
     }
 }
